@@ -16,6 +16,7 @@ app.post('/post',(req,res)=>{
     const {text} = req.body;
     var urmum = text.email;
     console.log(urmum);
+    console.log("helllo");
     res.status(200).json(`${text} is posted`);
 })
 
